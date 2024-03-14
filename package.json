@@ -1,0 +1,16 @@
+{
+  "name": "formation_tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i main.css -o main-compiled.css --watch",
+    "build": "npx tailwindcss -i main.css -o main-compiled.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
